@@ -71,7 +71,13 @@ You can test the API using tools like **Postman** . For example:
 ```bash
 curl http://localhost:3000/api/forex-data?from=GBP&to=INR&period=1W
 ```
+### 5. Testing the Live Api
 
+You can test the API using tools like **Postman** . Live API Url:
+
+```bash
+[ http://localhost:3000/api/forex-data?from=GBP&to=INR&period=1W](https://yahoo-finance-historic-data-scraper.onrender.com/api/forex-data?from=GBP&to=INR&period=1W)
+```
 ### 6. Scheduling Data Scraping
 
 The project uses `node-cron` to automatically scrape data at regular intervals. The scraping frequency can be customized by modifying the cron schedule in the `cronJob` setup in the project. The default schedule is set to scrape daily.
