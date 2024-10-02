@@ -66,14 +66,14 @@ This will run the application on `http://localhost:3000`.
 
 ### 5. Testing the API
 
-You can test the API using tools like **Postman** . For example:
+You can test the API using tools like **Postman** . Remember to use POST in Postman . For example:
 
 ```bash
 curl http://localhost:3000/api/forex-data?from=GBP&to=INR&period=1W
 ```
 ### 6. Testing the Live Api
 
-You can test the API using tools like **Postman** . Live API Url:
+You can test the API using tools like **Postman** . Remember to use POST in Postman . Live API Url:
 
 ```bash
 https://yahoo-finance-historic-data-scraper.onrender.com/api/forex-data?from=GBP&to=INR&period=1W
